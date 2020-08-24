@@ -1,0 +1,108 @@
+ /* Extra small devices (portrait phones, less than 356px)*/
+ 
+ @media (max-width: 576.98px) {
+     .my-content h1 {
+         font-weight: 600;
+         text-transform: uppercase;
+     }
+     .my-content h2 {
+         padding-top: 2px;
+         padding-bottom: 2px;
+         font-weight: 400;
+         letter-spacing: 1px;
+     }
+     .my-content p {
+         width: 72%;
+         text-align: justify;
+         line-height: 25px;
+         font-weight: normal;
+     }
+ }
+ /* Extra small devices (portrait phones, less than 576px)*/
+ 
+ @media (max-width: 575.98px) {
+     .middle-content-design h3 {
+         padding-top: 6px;
+         padding-bottom: 10px;
+         font-weight: 400;
+         letter-spacing: 1px;
+     }
+     .middle-part {
+         padding: 2px;
+         background-image: url(../img/dream-bg.png);
+         background-repeat: no-repeat;
+         background-position: right;
+     }
+     .experiance {
+         background-image: url(../img/exp-bg.png);
+         background-repeat: no-repeat;
+         background-size: 80px;
+         background-position: left;
+         padding: 11px;
+     }
+     .main-img img {
+         width: 392px;
+         padding-top: 30px;
+     }
+ }
+ /*Small devices (landscape phones, 576px and up)*/
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .my-content h1 {
+         font-weight: 700;
+         text-transform: uppercase;
+     }
+     .my-content h2 {
+         padding-top: 0px;
+         padding-bottom: 12px;
+         font-weight: 500;
+         letter-spacing: 2px;
+     }
+     .my-content p {
+         width: 78%;
+         text-align: justify;
+         line-height: 27px;
+         font-weight: normal;
+     }
+     .main-img img {
+         width: 385px;
+         padding-top: 8px;
+     }
+     .middle-part {
+         padding: 47px;
+         background-image: url(../img/dream-bg.png);
+         background-repeat: no-repeat;
+         background-position: right;
+         padding-bottom: 10px;
+     }
+     .middle-content-design h2 {
+         font-weight: 600;
+         text-transform: uppercase;
+     }
+     .middle-content-design h3 {
+         padding-top: 4px;
+         padding-bottom: 6px;
+         font-weight: 400;
+         letter-spacing: 2px;
+     }
+     .footer-area {
+         padding: 2px 0px;
+         text-align: center;
+     }
+ }
+ /* Medium devices (tablets, 768px and up)*/
+ 
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+ /* Large devices (desktops, 992px and up)*/
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+ /* Extra large devices (large desktops, 1200px and up)*/
+ 
+ @media (min-width: 1200px) {
+     .my-content h2 {
+         padding-top: 8px;
+         padding-bottom: 11px;
+         font-weight: 600;
+         letter-spacing: 2px;
+     }
+ }
