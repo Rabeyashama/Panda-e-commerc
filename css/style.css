@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*header-area start*/
+
+.custom-color {
+    background-color: #ddd;
+}
+
+
+/*header-area end*/
+
+
+/*slider part start*/
+
+.slider-bg {
+    background-color: #f4709c;
+    padding: 30px;
+}
+
+
+/*slider part end*/
+
+
+/*content start*/
+
+.my-content h1 {
+    font-weight: bold;
+    color: #413636;
+    font-size: 35px;
+}
+
+.my-content p {
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+}
+
+.my-content h2 {
+    font-weight: bold;
+    color: #d4057e;
+}
+
+.btn-custom {
+    background-color: #d4057e;
+    color: #ddd;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    margin-top: 15px;
+}
+
+
+/*content end*/
