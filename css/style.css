@@ -1,6 +1,7 @@
 body {
-    margin: 0;
+    margin:0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -38,8 +39,11 @@ html {
 }
 
 .my-content p {
-    font-size: 15px;
-    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    color: #2b2828;
+    width: 100%;
+    line-height: 30px;
     text-align: justify;
 }
 
@@ -58,3 +62,195 @@ html {
 
 
 /*content end*/
+
+
+/* style part start */
+
+#style-part {
+    padding: 50px 0px;
+}
+
+.containt {
+    background-color: #FAB535;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 5px 0px;
+    margin-left: 0px;
+}
+
+.style-containt h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 35px;
+}
+
+.style-image img {
+    width: 120px;
+    padding-left: 10px;
+}
+
+.containt-second {
+    background-color: #E34C9A;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 5px 0px;
+}
+
+.containt-therd {
+    background-color: #505CEB;
+    border-radius: 10px;
+    margin-right: 0px;
+    padding: 5px 0px;
+}
+
+
+/* style part end */
+
+
+/* shose part start */
+
+#shose-part {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.shoes-card {
+    background-color: #F4ECEC;
+}
+
+.main-pert h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #0e0603f8;
+}
+
+.shose-slider h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #0e0603f8;
+}
+
+.shose-slider h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #e02626;
+}
+
+
+/* shose part end *
+
+
+
+
+/* backpack start */
+
+#backpack-part {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.shoes-card {
+    background-color: #F4ECEC;
+}
+
+.main-pert h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #0e0603f8;
+}
+
+.backpack-slider h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #0e0603f8;
+}
+
+.backpack-slider h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #e02626;
+}
+
+
+/* backpack part end */
+
+
+/* contect part start */
+
+#contect-part {
+    background-color: #E6B6C6;
+    padding: 35px 0px;
+}
+
+.last-part {
+    text-align: center;
+}
+
+.last-part h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0603f8;
+    text-transform: uppercase;
+}
+
+.last-part h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #0e0603f8;
+    text-transform: capitalize;
+}
+
+.last-part input[type='text'] {
+    padding: 15px 80px;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+}
+
+.last-part input[type='text']:hover {
+    border: none;
+}
+
+.last-part input[type='submit'] {
+    padding: 10px 40px;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+    background-color: #dd3737;
+    border: 2px solid #e02626;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right: 270px;
+    border-radius: 5px;
+}
+
+
+/* contect part end */
+
+
+/* footer aria start */
+
+.color {
+    color: #e02626;
+}
+
+#footer-aria {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#footer-aria p {
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+/* footer aria end */

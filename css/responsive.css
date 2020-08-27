@@ -1,108 +1,143 @@
- /* Extra small devices (portrait phones, less than 356px)*/
- 
- @media (max-width: 576.98px) {
-     .my-content h1 {
-         font-weight: 600;
-         text-transform: uppercase;
-     }
-     .my-content h2 {
-         padding-top: 2px;
-         padding-bottom: 2px;
-         font-weight: 400;
-         letter-spacing: 1px;
-     }
-     .my-content p {
-         width: 72%;
-         text-align: justify;
-         line-height: 25px;
-         font-weight: normal;
-     }
- }
- /* Extra small devices (portrait phones, less than 576px)*/
+     /*   Extra small devices (portrait phones, less than 576px) */
  
  @media (max-width: 575.98px) {
-     .middle-content-design h3 {
-         padding-top: 6px;
-         padding-bottom: 10px;
-         font-weight: 400;
-         letter-spacing: 1px;
+     .silder-content {
+         padding: 50px 15px;
      }
-     .middle-part {
-         padding: 2px;
-         background-image: url(../img/dream-bg.png);
-         background-repeat: no-repeat;
-         background-position: right;
+     .silder-content p {
+         width: 95%;
+         line-height: 25px;
      }
-     .experiance {
-         background-image: url(../img/exp-bg.png);
-         background-repeat: no-repeat;
-         background-size: 80px;
-         background-position: left;
-         padding: 11px;
+     .slider-image img {
+         width: 200px;
      }
-     .main-img img {
-         width: 392px;
-         padding-top: 30px;
+     .slider-image {
+         padding: 20px 276px;
      }
- }
- /*Small devices (landscape phones, 576px and up)*/
- 
- @media (min-width: 576px) and (max-width: 767.98px) {
-     .my-content h1 {
-         font-weight: 700;
-         text-transform: uppercase;
+     .containt {
+         margin-bottom: 10px;
      }
-     .my-content h2 {
-         padding-top: 0px;
-         padding-bottom: 12px;
-         font-weight: 500;
-         letter-spacing: 2px;
+     .style-image img {
+         width: 170px;
+         margin-left: 240px;
+         margin-bottom: 50px;
      }
-     .my-content p {
-         width: 78%;
-         text-align: justify;
-         line-height: 27px;
-         font-weight: normal;
+     .containt {
+         margin: -40px 40px;
      }
-     .main-img img {
-         width: 385px;
-         padding-top: 8px;
+     .containt-second {
+         margin: 50px 40px;
      }
-     .middle-part {
-         padding: 47px;
-         background-image: url(../img/dream-bg.png);
-         background-repeat: no-repeat;
-         background-position: right;
-         padding-bottom: 10px;
+     .containt-therd {
+         margin: -40px 40px;
      }
-     .middle-content-design h2 {
-         font-weight: 600;
-         text-transform: uppercase;
+     .style-containt h2 {
+         text-align: center;
+         padding-right: 130px;
      }
-     .middle-content-design h3 {
-         padding-top: 4px;
-         padding-bottom: 6px;
-         font-weight: 400;
-         letter-spacing: 2px;
-     }
-     .footer-area {
-         padding: 2px 0px;
+     .shoes-card {
+         margin-bottom: 20px;
          text-align: center;
      }
- }
- /* Medium devices (tablets, 768px and up)*/
- 
- @media (min-width: 768px) and (max-width: 991.98px) {}
- /* Large devices (desktops, 992px and up)*/
- 
- @media (min-width: 992px) and (max-width: 1199.98px) {}
- /* Extra large devices (large desktops, 1200px and up)*/
- 
- @media (min-width: 1200px) {
-     .my-content h2 {
-         padding-top: 8px;
-         padding-bottom: 11px;
-         font-weight: 600;
-         letter-spacing: 2px;
+     .style-image img {
+         width: 160px;
+         margin-left: 120px;
+         margin-bottom: 25px;
+     }
+     .slider-image img {
+         width: 110px;
      }
  }
+ /*  Small devices (landscape phones, 576px and up) */
+ 
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .silder-content {
+         padding: 50px 15px;
+     }
+     .silder-content p {
+         width: 95%;
+         line-height: 25px;
+     }
+     .slider-image img {
+         width: 200px;
+     }
+     .slider-image {
+         padding: 20px 276px;
+     }
+     .containt {
+         margin-bottom: 10px;
+     }
+     .style-image img {
+         width: 170px;
+         margin-left: 240px;
+         margin-bottom: 50px;
+     }
+     .containt {
+         margin: -40px 40px;
+     }
+     .containt-second {
+         margin: 50px 40px;
+     }
+     .containt-therd {
+         margin: -40px 40px;
+     }
+     .style-containt h2 {
+         text-align: center;
+         padding-right: 130px;
+     }
+     .shoes-card {
+         margin-bottom: 20px;
+         text-align: center;
+     }
+     .silder-content p {
+         font-size: 16px;
+         width: 140%;
+         line-height: 25px;
+     }
+     .silder-content h2 {
+         font-size: 30px;
+     }
+ }
+ /*  Medium devices (tablets, 768px and up) */
+ 
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .containt-therd {
+         margin-top: 20px;
+         margin: 2px;
+     }
+     .silder-content {
+         padding: 15px 20px;
+     }
+     .silder-content p {
+         font-size: 16px;
+         width: 140%;
+         line-height: 25px;
+     }
+     .silder-content h2 {
+         font-size: 30px;
+     }
+     .slider-image img {
+         width: 155px;
+         margin-left: -70px;
+     }
+     .containt {
+         margin-right: 90px;
+     }
+     .containt-second {
+         margin-right: 90px;
+     }
+     .containt-therd {
+         margin-right: 90px;
+     }
+     #style-part {
+         padding: 50px 15px;
+         text-align: center;
+         margin-left: 100px;
+     }
+ }
+ /*  Large devices (desktops, 992px and up) */
+ 
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+ /*  Extra large devices (large desktops, 1200px and up) */
+ 
+ @media (min-width: 1200px) {
